@@ -283,9 +283,9 @@ def main():
     fe_files, fe_all = filter_target_files(FE_FOLDER)
     be_files, be_all = filter_target_files(BE_FOLDER)
     tc_files, tc_all = filter_target_files(TC_FOLDER)
-    exec_files, exec_all = filter_target_files(EXEC_FOLDER)
+    # exec_files, exec_all = filter_target_files(EXEC_FOLDER)
 
-    print(f"📂 FE: {len(fe_files)}/{fe_all} | BE: {len(be_files)}/{be_all} | TC: {len(tc_files)}/{tc_all} | EXEC: {len(exec_files)}/{exec_all}\n")
+    print(f"📂 FE: {len(fe_files)}/{fe_all} | BE: {len(be_files)}/{be_all} | TC: {len(tc_files)}/{tc_all} |")
 
     # Khởi tạo result cho tất cả màn mục tiêu
     for scr in target_screens:
